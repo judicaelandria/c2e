@@ -1,0 +1,32 @@
+/*
+    Navigation
+ */
+.navigation{
+    margin-top: 30px;
+}
+.navigation >ul{
+    padding-left: 10px;
+    list-style: none;
+}
+.navigation > ul > li{
+    padding: 5px 5px 20px 5px;
+    font-size: 11pt;
+}
+.navigation > ul > li >ul{
+    list-style: none;
+    padding-left: 0;
+}
+.navigation > ul > li >ul >li{
+    padding: 4px 4px 4px 10px;
+    font-size: 9pt;
+}
+.panel-user{
+    display: inline-block;
+    height: 400px;
+}
+.navigation > ul > li > a{
+    color: #00acc1;
+}
+.navigation > ul > li >ul > li > a:hover {
+    color: #00acc1;
+}

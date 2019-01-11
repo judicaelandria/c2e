@@ -1,0 +1,104 @@
+    .panel-tuto{
+        display: inline-block;
+        width: 300px;
+        height: 100px;
+        margin: 10px 5px 20px 5px;
+    }
+    .img-tuto{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+    }
+    .container-tuto-info{
+        float: right;
+        display: inline-block;
+        width: 195px;
+        padding-left: 3px;
+        overflow: hidden;
+        height: 100px;
+    }
+    .tuto-description{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        font-size: 9pt;
+        height: 0px;
+        width: 180px;
+        color: rgba(0,0,0, .7);
+        overflow: hidden;
+        background-color: white;
+        border-right: 2px solid #00acc1;
+    }
+    .panel-tuto:hover .tuto-description{
+        height: 100px;
+        transition: height 400ms ease-in;
+    }
+    .tuto-titre{
+        padding: 5px;
+    }
+.nom-auteur{
+    font-size: 10pt;
+    color: black;
+    opacity:.7;
+    font-style: italic;
+}
+.link-voir-tuto{
+    display: inline;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #00acc1;
+}
+.list-tag{
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+}
+.list-tag > li{
+    display: inline;
+    padding: 3px;
+    margin: 2px;
+    color: #9e9d24;
+    background-color: rgba(158,157,32, .2);
+    font-size:10pt;
+    font-family: Courier;
+}
+.link-tuto{
+    display: inline-block;
+    padding: 5px;
+    width: 94%;
+}
+.paragraphe{
+    margin: 5px 0px;
+    height: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 9pt;
+}
+.content-tuto{
+    padding: 5px;
+}
+.tuto-info{
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(0,0,0, .6);
+    background-color: #dcedc8;
+}
+.tuto-banniere{
+    margin-top: 20px;
+    background-color: #282c34;
+    padding: 5px 10px;
+}
+.tuto-btn{
+    display: inline-block;
+    width: 200px;
+    color: #00acc1;
+    margin: 5px;
+    padding: 10px;
+    border: solid 1px #00acc1;
+}
+.tuto-desc{
+    padding: 10px;
+    color: #232323;
+    font-size: 10pt;
+}

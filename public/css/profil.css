@@ -1,0 +1,33 @@
+
+.profil-content{
+    padding: 10px 20px 10px 5px;
+    font-size: 11pt;
+    border-right: 5px solid rgba(0,0,0,.4);
+}
+.profil-label{
+    opacity: .7;
+    padding-right: 10px;
+
+}
+.profil-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+}
+@media (min-width: 800px) {
+    .label-photo{
+        display: none;
+    }
+    .profil-photo{
+        display: inline-block;
+        float: right;
+        border-radius: 50%;
+    }
+    .photo-2{
+        display: none;
+    }
+}
+.user-form-role{
+    display: none;
+}

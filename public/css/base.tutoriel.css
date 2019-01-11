@@ -1,0 +1,22 @@
+.tutoriel
+{
+	margin: 0 auto;
+	padding: 4px;
+	line-height: 21px;
+	text-align: justify;
+
+}
+.tutoriel>*
+{
+	margin: 0 auto;
+	padding: 4px;
+	line-height: 21px;
+	text-align: justify;
+}
+.description
+{
+	margin: 0 auto;
+	padding: 4px;
+	line-height: 21px;
+	text-align: justify;
+}

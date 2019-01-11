@@ -1,0 +1,48 @@
+.disc-section{
+    padding: 5px;
+    border-left: 5px rgba(0,0,0, .4) solid;
+    margin: 20px 0px;
+}
+.disc-auteur, .disc-auteur-comment{
+    padding-left: 10px;
+    height: 30px;
+}
+.disc-auteur-photo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+.disc-auteur-nom{
+    padding-left: 10px;
+    font-size: 11pt;
+    font-style: italic;
+    opacity: 1;
+}
+.disc-description{
+    padding-left: 10px;
+}
+.disc-commentaire{
+    margin: 30px 0px;
+}
+.disc-comment-photo{
+    width: 20px;
+    height: 20px;
+    border-radius: 25%;
+    float: left;
+}
+.disc-auteur-comment:after{
+    display: inline-block;
+    content:'';
+    width: 20px;
+    height: 15px;
+    position: relative;
+    border: 2px solid transparent;
+    border-top-color: rgba(0,0,0,.4);
+    border-right-color: rgba(0,0,0,.4);
+    transform: rotate(45deg);
+}
+
+.disc-create-commentaire{
+    margin-top: 40px;
+}

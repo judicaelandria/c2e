@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/HomeController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/MessageController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/SectionController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/resources/views/cssBase/css.blade.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/Type_d_exerciceController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/.env</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/ForumController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/NotificationController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/TermeController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/FichierController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/resources/views/tutoriel/edit.blade.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Tutoriel.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/ExerciceController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/TutorielController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/CommentaireController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/ExempleController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/UniversiteController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/resources/views/tutoriel/show.blade.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/ProjetController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/User.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/TypeController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/CorrigeController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/NiveauController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/AppareilController.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/Controller.php</file>
+            <file>file:/C:/xampp/htdocs/tp_blog/app/Http/Controllers/QuestionController.php</file>
+        </group>
+    </open-files>
+</project-private>

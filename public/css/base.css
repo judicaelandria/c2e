@@ -1,0 +1,183 @@
+/*
+    Base
+ */
+@font-face {
+    font-family: "NS";
+    src: url("http://localhost/c2e/public_html/font/NotoSans-Regular.ttf");
+}
+textarea{
+    font-family: "NS", "Myriad Pro";
+}
+body{
+    font-family: "NS", "Myriad Pro";
+    margin: 0;
+    color: #232323;
+    font-size: 12pt;
+}
+code{
+    background-color: #232323;
+    color: white;
+    padding: 3px;
+    font-size: 11pt;
+    font-family: "NS", "Myriad Pro";
+}
+a{
+    text-decoration: none;
+    color: #232323;
+}
+hr{
+    margin-bottom: 50px;
+    opacity: .2;
+}
+h1{
+    font-weight: normal;
+    font-size: 44pt;
+    margin: 0px;
+    padding:5px;
+}
+h3{
+    font-weight: normal;
+    font-size: 24pt;
+    margin-bottom: 10px;
+}
+h4{
+    font-weight: normal;
+    font-size: 18pt;
+    margin: 0px;
+    padding-top: 25px;
+}
+h5{
+    font-weight: normal;
+    font-size: 14pt;
+    padding: 5px 5px 5px 20px;
+    margin: 0px;
+    border-left: 3px solid white;
+}
+h6{
+    font-size: 14pt;
+    font-weight: normal;
+    margin: 5px 0px;
+}
+ul{
+    list-style: none;
+}
+p{
+    margin: 5px;
+    font-size: 11pt;
+    opacity: .8;
+}
+
+/*
+    Positionnement basique
+ */
+.container{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media (min-width: 900px) {
+    .container{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+@media (min-width: 400px) {
+    .pull-left{
+        float: left;
+    }
+    .pull-right{
+        float: right;
+    }
+}
+
+.ancre{
+    opacity: .4;
+    padding-top: 70px;
+    color: #00acc1;
+}
+.contenu{
+    padding: 0px 5px;
+}
+@media (min-width: 400px) {
+    .contenu{
+        padding: 0px 5% 0px 5px;
+    }
+}
+
+
+
+
+
+/*
+    Lien
+ */
+.link-tous{
+    display: block;
+    margin-bottom: 80px;
+    text-align: center;
+    color: rgba(0,0,0, .4);
+    border-bottom: solid 1px rgba(0,0,0, .4);
+    padding: 5px 0px 5px 0px;
+}
+.link{
+    color: #00acc1;
+    opacity: .8;
+}
+.link:hover{
+    opacity: 1;
+}
+.link-dark{
+    color: whitesmoke;
+}
+/*
+    Pagination
+ */
+.pagination{
+    padding: 0;
+    text-align: center;
+}
+.pagination > li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.pagination > li > a{
+    color: #00acc1;
+}
+.pagination > .active{
+    color: white;
+    background-color: #00acc1;
+}
+.pagination > .disabled{
+    color: white;
+    background-color: #b0bec5;
+}
+
+/*
+    Background color
+ */
+.bg-info{
+    background-color:  #eceff1;
+}
+
+/*
+    Contenu
+ */
+.article{
+    width: 100%;
+}
+.navigation{
+    display: none;
+}
+@media (min-width: 1024px) {
+    .navigation{
+        z-index: 3;
+        display: inline-block;
+        float: right;
+        width: 24%;
+        border-left: dashed 2px rgba(40,40,40,.1);
+    }
+    .article{
+        display: inline-block;
+        width: 71%;
+        padding-right: 4%;
+    }
+}

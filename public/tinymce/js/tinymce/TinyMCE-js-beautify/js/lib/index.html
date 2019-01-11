@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Accueil</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/grid.css">
+	<style type="text/css" media="screen">
+	</style>					
+</head>
+<body class=".container-fluid">
+</body>
+<script src="beautify-css.js"></script>
+<script src="beautify-html.js"></script>
+<script src="beautify.js"></script>
+<script>
+// jQuery(document).ready(function($) {
+
+// 	});
+   var b =js_beautify(".dd{dddd}", {
+      'indent_size': 1,
+      'indent_char': '\t'
+    });
+   // var a =     style_html(html_source, {
+   //    'indent_inner_html': false,
+   //    'indent_size': 2,
+   //    'indent_char': ' ',
+   //    'wrap_line_length': 78,
+   //    'brace_style': 'expand',
+   //    'unformatted': ['a', 'sub', 'sup', 'b', 'i', 'u'],
+   //    'preserve_newlines': true,
+   //    'max_preserve_newlines': 5,
+   //    'indent_handlebars': false
+   //  });
+      css_beautify("css_source_text", {
+      'indent_size': 1,
+      'indent_char': '\t',
+      'selector_separator': ' ',
+      'end_with_newline': false,
+    });
+   alert(b)
+</script>
+</html>

@@ -1,0 +1,52 @@
+.annonce-section{
+    margin: 10px 0px 30px 0px;
+    padding: 5px;
+}
+@media (min-width: 400px) {
+    .annonce-section{
+        padding-right: 5%;
+    }
+
+}
+.annonce-banniere{
+    text-align: center;
+}
+.annonce-auteur-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+@media (min-width: 600px) {
+    .annonce-auteur{
+        height: 40px;
+        line-height: 40px;
+    }
+    .annonce-auteur-photo{
+        float: left;
+    }
+    .annonce-titre{
+        font-size: 16pt;
+    }
+    .annonce-banniere:before{
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        background-color: white;
+        left: 15%;
+        top: 120px;
+        width: 5px;
+        height: 80px;
+        transform: rotate(20deg);
+    }
+    .annonce-banniere:after{
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        background-color: white;
+        right: 15%;
+        top: 120px;
+        width: 5px;
+        height: 80px;
+        transform: rotate(20deg);
+    }
+}

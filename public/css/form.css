@@ -1,0 +1,165 @@
+/*
+    Basic element
+ */
+@media (min-width: 800px) {
+    .form-auth{
+        width: 50%;
+    }
+}
+/*
+form{
+    width: 100%;
+}
+@media (min-width: 800px) {
+    form{
+        width: 60%;
+    }
+}*/
+input, textarea, select {
+    display: block;
+    background-color: rgba(0, 60, 64, .1);
+    color: black;
+    font-size: 11pt;
+    border: none;
+    margin: 10px 0px;
+}
+input, textarea{
+    padding: 10px 2%;
+    width: 94%;
+}
+select{
+    padding: 10px 2%;
+    width: 98%;
+}
+
+label{
+    margin-top: 10px;
+    display: block;
+}
+
+/*
+    Bouton
+ */
+
+.btn, .btn-sm  {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    width: auto;
+    color: whitesmoke;
+    background-color: #b0bec5;
+    border: none;
+    font-size:12pt;
+}
+.btn:hover{
+    opacity: .8;
+}
+
+.btn-sm {
+    padding:5px;
+}
+.btn-fixed{
+    padding: 10px;
+    width: 100px !important;
+}
+.btn-primary{
+
+    background-color: #00acc1;
+}
+.btn-success{
+    background-color: #689f38;
+}
+.btn-danger{
+    background-color: #ff5722;
+}
+.btn-warming{
+    background-color: #fbc02d;
+}
+.btn-group{
+    padding: 5px;
+}
+
+
+/*
+    Container
+ */
+.content-input{
+    width: 98%;
+}
+.content-btn{
+    width: 94%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+/*
+    Coloration
+ */
+.has-error{
+    background-color: #ffebee;
+    color: #f44336;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.alert-default{
+    color: #232323;
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 5px;
+}
+.alert-success{
+    color: #689f38;
+    background-color: #dcedc8;
+    padding: 20px;
+    margin: 5px;
+}
+.alert-error{
+    color: whitesmoke;
+    background-color: #f44336;
+    padding: 20px;
+    margin: 5px;
+}
+.alert-info{
+    color: #00acc1;
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin: 5px;
+}
+.form-inline{
+    display: inline-block;
+}
+.form-group-checkbox{
+    background-color: rgba(0,0,0,.1);
+    width: 98%;
+    margin: 5px 0px 20px 0px;
+}
+.form-group-inline{
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+}
+.form-group-inline > input,.form-group-inline > label{
+    display: inline-block;
+    width: 50px;
+    margin: 0px;
+}
+.form-group-inline > label{
+    width: 150px;
+}
+@media (min-width: 600px) {
+    .form-group-2{
+        display: inline-block;
+        width: 49%;
+    }
+}
+.btn-crud{
+    width: 40px;
+    height: 40px;
+}
+.btn-crud-sm{
+    width: 30px;
+    height: 30px;
+}
