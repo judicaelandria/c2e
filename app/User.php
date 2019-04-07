@@ -54,6 +54,7 @@ class User extends Authenticatable
     {
         return $this->belongsToMany('App\Notification','user__notifications')->where('vue',0);
     }
+    
     protected $fillable = [
         'name', 'prenom', 'email', 'password','login','telephone','adresse','etudiant','domaine','lieu'
         ,'image','type_utilisateur_id', 'annee_nais', 'score', 'pass_changed'

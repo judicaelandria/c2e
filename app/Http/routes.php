@@ -44,7 +44,7 @@ Route::delete('badget/{id}', 'BadgetController@destroy')->name('badget.destroy')
 //Route::resource('universite','UniversiteController');
 //Route::resource('terme','TermeController');
 //Route::resource('type','TypeController');
-// Route::resource('type_d_exercices','Type_d_exerciceController');
+//Route::resource('type_d_exercices','Type_d_exerciceController');
 
 //Route::resource('annonce','AnnonceController');
 Route::get('annonce', 'AnnonceController@index')->name('annonce.index');

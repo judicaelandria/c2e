@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="tuto-banniere">
 		<pre class=" language-c"><code class="language-c hljs cpp"><span class="token function"><span class="hljs-built_in">printf</span></span><span class="token punctuation">(</span><span class="token string"><span class="hljs-string">"Hello world!"</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true"><span class="hljs-comment">//La rédaction d'un tutoriel permet d'avoir un badge</span></span></code></pre>
+		<span class="token comment" spellcheck="true"><span class="hljs-comment">//La rédaction d'un tutoriel permet d'avoir un badge</span></span></code></pre>
 			<center>
 				{!! link_to_route('tutoriel.create', 'Rédiger un tutoriel', [], ['class' => 'tuto-btn ']) !!}
 			</center>

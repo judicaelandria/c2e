@@ -59,7 +59,7 @@ class UserController extends Controller
             foreach ($user->tutoriels as $tuto){
                 $existe = false;
                 foreach ($tutoArray as $tutoA){
-                    if($tuto->badge == $tutoA->badge){ 
+                    if($tuto->badge == $tutoA->badge){
                             $existe = true;
                     }
                 }
@@ -100,6 +100,7 @@ class UserController extends Controller
                 array_push($tuto_valides, $tuto);
             else array_push($tuto_nonValides, $tuto);
         }
+        
         //dd($tuto_nonValides);
         if(!Auth::guest() && Auth::user() == User::find($id) && Auth::user()->pass_changed == 0)
             return redirect()->route('user.password');

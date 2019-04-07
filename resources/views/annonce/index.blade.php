@@ -36,7 +36,7 @@
 					{!! Form::open(['name'=>'formAnnonceDelete', 'method' => 'DELETE', 'class'=>'form-inline', 'route' => ['annonce.destroy', $annonce->id]]) !!}
 						<img src="{{asset('icon/del.svg')}}"
 							 class="btn-crud"
-							 onclick="if(confirm('Voulez-vous vraiment supprimé cette annonce ?')) formAnnonceDelete.submit()"/>
+							 onclick="if(confirm('Voulez-vous vraiment supprimé cette annonce ?')) $(this).parent()[0].submit()"/>
 					{!! Form::close() !!}
 				</div>
 			@endif

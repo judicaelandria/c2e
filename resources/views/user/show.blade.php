@@ -108,7 +108,7 @@
 			<h3><a class="ancre" id="tuto">#</a> Requêtes de validations</h3>
 			@foreach ($tuto_nonValides as $tutoriel)
 				<div class="panel-tuto">
-					<img class="img-tuto" src='{!! asset($tutoriel->badget->image) !!}'/>
+					{{--  <img class="img-tuto" src='{!! asset($tutoriel->badget->image) !!}'/>  --}}
 					<div class="container-tuto-info">
 						<div class="tuto-description">
 							<a href="{{ route('tutoriel.show', [$tutoriel->id])}}">

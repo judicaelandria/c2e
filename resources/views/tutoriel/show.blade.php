@@ -36,7 +36,7 @@
 		@endif
 	</div>
 	<div class="alert-default">
-		<img class="img-auteur"  src="{!! asset($tutoriel->user->image) !!}" alt="">
+		{{--  <img class="img-auteur"  src="{!! asset($tutoriel->user->image) !!}" alt="">  --}}
 		<span class="nom-auteur">
 			Rédigé par
 			{!! link_to_route('user.show', $tutoriel->user->name. ' ' .$tutoriel->user->prenom, ['id' => $tutoriel->user->id], ['style' => 'text-decoration: underline']) !!}

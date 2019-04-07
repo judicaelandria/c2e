@@ -77,22 +77,11 @@ class TutorielController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(TutorielCreateRequest $request)
+    public function create()
     {
-
-        if (Auth::guard(null)->guest()) {
-            if ($request->ajax() || $request->wantsJson()) {
-                return response('Unauthorized.', 401);
-            } else {
-                return redirect()->guest('login');
-            }
-        }else
-          {
-          
-            $niveaus   = Niveau::lists('niveau','id');
-            $badges   = Badget::lists('nom','id');
-              return view('tutoriel.create',compact('niveaus', 'badges'));
-          }
+        $niveaus   = Niveau::lists('niveau','id');
+        $badges   = Badget::lists('nom','id');
+        return view('tutoriel.create',compact('niveaus', 'badges'));
     }
 
     /**
@@ -101,7 +90,7 @@ class TutorielController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(TutorielCreateRequest $request)
+    public function store(Request $request)
     {
         $id = Auth::user()->id;
         $inputs = array_merge($request->all(),['user_id' => $id]);
@@ -118,11 +107,11 @@ class TutorielController extends Controller
         $user->score = $user->score+4;
         $user->save();
         /* 
-    Notification pour tout les user pour annonce un nouveau tuto est créer
+        Notification pour tout les user pour annonce un nouveau tuto est créer
         */
         Notification::CreateForAllUser("Un nouveau Tutoriel a été créer par ".Auth::user()->nom." ".Auth::user()->prenom." vous pouvez lui proposer de l'aide",0,"TUTORIEL",$tutoriel->id,"pas");
 
-        return redirect()->route('user.show', compact('user'))->withOk('Le tutoriel a été créé avec succès.');
+        return redirect()->route('user.show', compact('user'));
     }
 
     /**

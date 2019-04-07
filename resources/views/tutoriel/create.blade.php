@@ -12,6 +12,7 @@
 	<h3>Création du tutoriel</h3>
 
 	{!! Form::open(['url' => 'tutoriel', 'method' => 'post','files' => true, 'class' => 'form-horizontal panel']) !!}
+		
 		<div class="form-group {!! $errors->has('nom') ? 'has-error' : '' !!}">
 			{!! Form::label('nom','Titre') !!}
 			{!! Form::text('nom', null, ['class' => 'form-control', 'placeholder' => '']) !!}
